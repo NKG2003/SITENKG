@@ -1,23 +1,4 @@
-<script setup>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
 
 <template>
   <footer
@@ -30,7 +11,7 @@ function topFunction() {
           class="container px-5 py-2 flex flex-wrap mx-auto items-start text-sm"
         >
           <div
-            class="flex md:flex-nowrap flex-col sm:flex-row justify-start items-start md:justify-start"
+            class="flex md:flex-nowrap flex-col sm:flex-row justify-start items-start md:justify-start lg:text-xl md:text-base text-sm font-extrabold"
           >
             <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
               ТОО "NurZholy Customs Service"
@@ -84,28 +65,12 @@ function topFunction() {
       <div
         class="container mx-auto py-2 px-5 flex flex-wrap flex-col sm:flex-row"
       >
-        <p class="text-gray-500 text-sm text-center sm:text-left">
+        <p class="text-gray-500 text-sm text-center sm:text-left ml-5">
           © 2023 ТОО "NurZholy Customs Service". Все права защищены
         </p>
       </div>
     </div>
   </footer>
 
-  <button class="z-50" onclick="topFunction()" id="myBtn" title="Go to top">
-    <svg
-      class="w-6 h-6 text-white"
-      aria-hidden="true"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 10 14"
-    >
-      <path
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M5 13V1m0 0L1 5m4-4 4 4"
-      />
-    </svg>
-  </button>
+
 </template>

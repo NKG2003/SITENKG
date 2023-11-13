@@ -4,3 +4,22 @@
 html, body {
     height: 100%;
 }
+
+#go-top {
+    position: fixed; 
+    bottom: 50px; 
+    right: 70px;
+    cursor:pointer; 
+    display:none;
+    width: 60px;
+    height: 50px;
+    background: #c0c0c0;
+    line-height: 30px;
+    border-radius: 5px;
+    z-index: 20;
+
+  }
+  
+  #go-top:hover {
+    background: #dedede;
+  }

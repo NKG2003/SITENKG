@@ -4,15 +4,12 @@
       <nav
         class="rounded-b-lg bg-white fixed z-30 py-1 w-full h-14 flex flex-wrap items-center mx-auto p-0 shadow-lg"
       >
-        <a
-          href="/index.html"
+        <router-link
+          to="/"
           class="flex justify-start w-auto h-12 p-2 -ml-6 lg:-ml-3"
         >
-          <img
-            src="@/assets/logo_2.png"
-            class="h-10 ml-9"
-            alt="Flowbite Logo"
-        /></a>
+          <img src="@/assets/logo_2.png" class="h-10 ml-9" alt="Flowbite Logo"
+        /></router-link>
         <button
           data-collapse-toggle="navbar-dropdown"
           type="button"
@@ -42,7 +39,7 @@
           id="navbar-dropdown"
         >
           <ul
-            class="flex uppercase flex-col xl:text-base md:text-xs font-extrabold p-0 mt-5 border bg-white text-teal-950 rounded-lg md:flex-row md:space-x-0.5 lg:md:space-x-1 md:mt-0 md:border-0"
+            class="flex uppercase flex-col xl:text-base md:text-xs font-extrabold p-0 mt-5 shadow-xl sm:shadow-none border-2 bg-white text-teal-950 rounded-lg md:flex-row md:space-x-0.5 lg:md:space-x-1 md:mt-0 md:border-0 border-teal-950"
           >
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
@@ -91,67 +88,67 @@
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
-                    <a
-                      href="/history.html"
+                    <router-link
+                      to="/history"
                       class="block px-6 py-2 lng-history"
                       data-lang="history"
-                      >История</a
+                      >История</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/org-strucutre.html"
+                    <router-link
+                      to="/org_strucutre"
                       class="block px-6 py-2 lng-organizational-structure"
                       data-lang="organizational-structure"
-                      >Организационная структура</a
+                      >Организационная структура</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/leadership.html"
+                    <router-link
+                      to="/leadership"
                       class="block px-6 py-2 lng-leadership"
                       data-lang="leadership"
-                      >Руководство</a
+                      >Руководство</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/types-of-activities.html"
+                    <router-link
+                      to="/process"
                       class="block px-6 py-2 lng-types-of-activities"
                       data-lang="types-of-activities"
-                      >Виды деятельности</a
+                      >Виды деятельности</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/development-plans.html"
+                    <router-link
+                      to="/process"
                       class="block px-6 py-2 lng-development-plans"
                       data-lang="development-plans"
-                      >Планы развития</a
+                      >Планы развития</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/reporting.html"
+                    <router-link
+                      to="/process"
                       class="block px-6 py-2 lng-reporting"
                       data-lang="reporting"
-                      >Отчетность</a
+                      >Отчетность</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/regulations.html"
+                    <router-link
+                      to="/regulations"
                       class="block px-6 py-2 lng-regulatory-documents"
                       data-lang="regulatory-documents"
-                      >Нормативные документы</a
+                      >Нормативные документы</router-link
                     >
                   </li>
                   <li>
-                    <a
-                      href="/ads.html"
+                    <router-link
+                      to="/process"
                       class="block px-6 py-2 lng-ads"
                       data-lang="ads"
-                      >Объявления</a
+                      >Объявления</router-link
                     >
                   </li>
                 </ul>
@@ -163,21 +160,21 @@
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <a
-                href="/projects.html"
+              <router-link
+                to="/process"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-projects"
                 data-lang="projects"
-                >Проекты</a
+                >Проекты</router-link
               >
             </button>
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <a
-                href="/news.html"
+              <router-link
+                to="/process"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-news"
                 data-lang="news"
-                >Новости</a
+                >Новости</router-link
               >
             </button>
             <button
@@ -193,11 +190,11 @@
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <a
-                href="/vacancy.html"
+              <router-link
+                to="/process"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-vacancy"
                 data-lang="vacancy"
-                >Вакансия</a
+                >Вакансия</router-link
               >
             </button>
             <button
@@ -205,7 +202,6 @@
             >
               <router-link
                 to="/contacts"
-                href="/contacts.html"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-contacts"
                 data-lang="contacts"
                 >Контакты</router-link

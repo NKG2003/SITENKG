@@ -1,7 +1,10 @@
 <template>
-  <div>
+  <div class=" h-full ">
     <NavBar />
     <router-view />
+  </div>
+  <div class="bottom-0 w-full">
+    <HelloWorld />
   </div>
 </template>
 

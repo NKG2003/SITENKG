@@ -1,38 +1,27 @@
 <template>
   <div class="relative flex flex-col">
     <div
-      class="body-font justify-center flex xl:text-3xl text-black px-1 lg:px-16 pb-20 lg:mt-14 mt-7"
+      class="body-font justify-center flex xl:text-3xl text-teal-950 px-1 lg:px-16 pb-10  bg-[url('@/assets/Astana.jpg')] bg-cover bg-no-repeat bg-center bg-local"
     >
       <div
-        class="py-1 mx-auto flex xl:justify-center md:flex-nowrap flex-wrap z-10 pl-2 mt-20 bg-white rounded-sm"
+        class="py-1 mx-auto flex xl:justify-center md:flex-nowrap flex-wrap z-10 pl-2 mt-20 bg-white rounded-sm "
       >
-        <div class="text-black flex-col 2xl:mr-10 mb-6 pr-10 z-10 xl:p-10 p-4">
-          <h1 class="lg:mb-6 mb-4 font-bold">КОНТАКТЫ</h1>
+        <div class="text-teal-950 flex-col 2xl:mr-10 mb-6 pr-10 z-10 xl:p-10 p-4">
+          <h1 class="lg:mb-6 mb-4 font-extrabold ">КОНТАКТЫ</h1>
           <p class="font-bold mb-6">Приемная</p>
 
-          <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col lg:flex-row">
+          <div class="mb-6 lg:mb-8 lg:text-xl flex flex-col lg:flex-row">
             <p class="lg:text-xl mr-2">Телефон:</p>
-            <p>+7 (7172) 73-55-37 (вн. 1101)</p>
+            <p>+7-XXX-XXX-XX-XX</p>
           </div>
 
-          <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col lg:flex-row">
+          <div class="mb-6 lg:mb-8 lg:text-xl flex flex-col lg:flex-row">
             <p class="mr-2">Эл. почта:</p>
-            <p>INFO@NZHKEDEN.KZ</p>
+            <p>info@nzhkeden.kz</p>
           </div>
 
-          <p class="font-bold mb-4 lg:mb-12">е-Минфин</p>
 
-          <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col lg:flex-row mt-6">
-            <p class="lg:text-xl mr-2">Телефон поддержки пользователей:</p>
-            <p>+7(7172) 73-54-00</p>
-          </div>
-
-          <div class="mb-6 lg:mb-12 lg:text-xl flex flex-col lg:flex-row">
-            <p class="lg:text-xl mr-2">Эл. почта:</p>
-            <p>minfin_support@ecc.kz</p>
-          </div>
-
-          <p class="font-bold mb-4 lg:mb-12">Юридический адрес</p>
+          <p class="font-bold mb-4 lg:mb-8">Юридический адрес</p>
           <div class="flex flex-col">
             <p class="lg:text-xl">
               ТОО «Nur Zholy Customs Service» Жетысу область,
@@ -47,17 +36,17 @@
     </div>
 
     <div
-      class="w-full flex flex-col justify-center items-center bg-[url('/src/assets/nur-zholy.png')] p-10 md:w-screen bg-cover bg-no-repeat bg-center border-t-8 border-black"
+      class="w-full flex flex-col justify-start items-start  p-10  px-16"
     >
       <p
-        class="z-10 text-black uppercase lg:text-4xl mx-auto font-extrabold bg-gray-100/70 rounded-sm p-6 text-center flex justify-center items-center"
+        class="z-10 text-teal-950  lg:text-4xl font-extrabold bg-white w-full  rounded-sm text-start flex justify-start items-start"
       >
-        Наш адрес
+        Наши адреса
       </p>
       <div class="hidden lg:flex flex-col justify-center items-center">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10481.651764935008!2d80.3967903!3d44.1586367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x387f177232258c41%3A0x4bd9eec54c46002d!2z0J3SsdGAINC20L7Qu9GLIC0gTnVyIEpvbHk!5e1!3m2!1sru!2skz!4v1699017324260!5m2!1sru!2skz"
-          width="850px"
+          width="650px"
           height="350px"
           style="border: 0"
           loading="lazy"
@@ -78,13 +67,13 @@
       </div>
     </div>
 
-    <div class="body-font xl:text-4xl text-black px-1 lg:px-16">
-      <div class="py-1 z-10 pl-2 rounded-sm">
+    <div class="body-font xl:text-4xl text-teal-950 px-1 lg:px-16 z-10 pl-2 rounded-sm">
+     
         <div
-          class="text-black 2xl:mr-10 pr-4 z-10 xl:p-10 p-4 lg:mx-20 lg:mt-20 mt-10"
+          class="text-teal-950 2xl:mr-10 pr-4 z-10 xl:p-10 p-4 lg:mx-20 "
         >
-          <h1 class="text-black font-bold lg:mt-0">ОБРАТНАЯ СВЯЗЬ</h1>
-          <p class="leading-relaxed mb-5 text-lg text-black text-justify py-5">
+          <h1 class="text-teal-950 font-bold lg:mt-0">ОБРАТНАЯ СВЯЗЬ</h1>
+          <p class="leading-relaxed mb-5 text-lg text-teal-950 text-justify py-2">
             Если у вас есть предложения или вопросы, пожалуйста,заполните
             следующую форму, чтобы связаться с нами.
           </p>
@@ -172,7 +161,7 @@
                   type="password"
                   id="password"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="•••••••••"
+                  placeholder="••••"
                   required
                 />
               </div>
@@ -186,7 +175,7 @@
                   type="password"
                   id="confirm_password"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="•••••••••"
+                  placeholder="••••"
                   required
                 />
               </div>
@@ -224,5 +213,5 @@
         </div>
       </div>
     </div>
-  </div>
+  
 </template>

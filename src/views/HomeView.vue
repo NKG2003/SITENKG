@@ -1,7 +1,9 @@
 <template>
+  <div class=""></div>
   <div
-    class="z-10 flex body-font text-teal-950 py-10 items-center flex-col bg-white rounded-md shadow-2xl my-40"
+    class="z-10 text-base body-font text-teal-950 h-screen"
   >
+  <div class="bg-white py-12 flex  flex-col items-center my-40 rounded-md shadow-2xl">
     <h1
       class="flex justify-center mb-2 font-bold xl:text-5xl z-10 text-center px-4"
     >
@@ -16,11 +18,11 @@
     <p2
       class="py-12 px-4 hover:text-blue-600 text-lg hover:text-xl cursor-pointer transition-transform transform hover:scale-110 z-10"
     >
-      <a
-        href="/history.html"
-        class="border-2 border-teal-950 p-3 rounded-full shadow-lg"
-        >Узнайте о нас больше</a
+      <router-link
+        to="/history"
+        class="border-2 border-teal-950 p-3 text-xs xl:text-xl rounded-full shadow-lg"
+        >Узнайте о нас больше</router-link
       ></p2
     >
-  </div>
+  </div></div>
 </template>
