@@ -1,17 +1,17 @@
 <template>
   <div
-    class="h-screen relative bg-[url('@/assets/bg-history.png')] bg-opacity-50 bg-cover bg-no-repeat bg-center bg-local"
+    class="relative "
   >
-    <div class="h-full flex justify-center">
+    <div class="h-full flex justify-center shadow-2xl rounded-lg">
       <div
-        class="z-10 flex body-font text-white py-28 items-center flex-col px-5 -mt-8 lg:-mt-0"
+        class="z-10 flex body-font text-teal-950 py-28 items-center flex-col px-5 -mt-8 lg:-mt-0  bg-white"
       >
-        <h1 class="flex justify-center mb-8 font-semibold xl:text-3xl z-10">
+        <h1 class="flex justify-center mb-8 font-semibold xl:text-3xl z-10 ">
           ИСТОРИЯ НАШЕЙ КОМПАНИИ
         </h1>
 
         <div
-          class="hidden lg:flex justify-center items-center flex-col font-medium xl:text-2xl z-10 text-justify md:px-60 indent-8"
+          class="hidden lg:flex justify-center items-center flex-col font-semibold xl:text-2xl z-10 text-justify md:px-60 indent-8 "
         >
           ТОО «Nur Zholy Customs Service» (далее – Товарищество) создано 7
           октября 2022 года в порядке, установленном законодательством
@@ -28,7 +28,7 @@
         </div>
 
         <div
-          class="inline-block lg:hidden justify-start font-medium text-xs sm:text-lg z-10 pl-5 pr-4 text-justify"
+          class="inline-block lg:hidden justify-start font-medium text-xs sm:text-lg z-10 pl-5 pr-4 text-justify  bg-white"
         >
           ТОО «Nur Zholy Customs Service» (далее – Товарищество) создано 7
           октября 2022 года в порядке, установленном законодательством

@@ -2,7 +2,7 @@
   <div class="relative">
     <div class="h-full flex justify-center">
       <nav
-        class="rounded-b-lg bg-white fixed z-30 py-1 w-full h-14 flex flex-wrap items-center mx-auto p-0 shadow-lg"
+        class="rounded-b-3xl  bg-white fixed z-30 py-1 w-full h-14 flex flex-wrap items-center mx-auto p-0 shadow-xl"
       >
         <router-link
           to="/"

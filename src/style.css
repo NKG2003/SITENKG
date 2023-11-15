@@ -7,8 +7,8 @@ html, body {
 
 #go-top {
     position: fixed; 
-    bottom: 50px; 
-    right: 70px;
+    bottom: 30px; 
+    right: 40px;
     cursor:pointer; 
     display:none;
     width: 60px;
@@ -23,3 +23,5 @@ html, body {
   #go-top:hover {
     background: #dedede;
   }
+
+

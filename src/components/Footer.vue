@@ -1,12 +1,11 @@
 
-
 <template>
   <footer
-    class="text-gray-600 body-font bg-gray-200 absolute z-20 buttem-0 w-full"
+    class="text-white  body-font bg-gray-600 absolute z-20 buttem-0 w-full "
   >
     <div class="container px-5 mx-auto"></div>
-    <div class="border-t border-gray-200">
-      <div class="container px-5 py-2 flex flex-wrap mx-auto items-center">
+    <div class="">
+      <div class="container px-5 flex flex-wrap mx-auto items-center">
         <div
           class="container px-5 py-2 flex flex-wrap mx-auto items-start text-sm"
         >
@@ -17,13 +16,13 @@
               ТОО "NurZholy Customs Service"
             </div>
 
-            <button class="text-gray-500 md:ml-6 md:mt-0 mt-2 text-left">
+            <button class="text-white  md:ml-6 md:mt-0 mt-2 text-left">
               <a href="/index.html" class="" data-lang="news">О компания</a>
             </button>
-            <button class="text-gray-500 md:ml-6 md:mt-0 mt-2 text-left">
+            <button class="text-white  md:ml-6 md:mt-0 mt-2 text-left">
               <a href="/news.html" class="" data-lang="news">Новости</a>
             </button>
-            <button class="text-gray-500 md:ml-6 md:mt-0 mt-2 text-left">
+            <button class="text-white  md:ml-6 md:mt-0 mt-2 text-left">
               <a href="/contacts.html" class="" data-lang="contacts"
                 >Контакты</a
               >
@@ -32,7 +31,7 @@
           <span
             class="inline-flex sm:ml-auto sm:mt-0 mt-6 w-full justify-start md:justify-start md:w-auto"
           >
-            <a class="text-gray-500"> INFO@NZHKEDEN.KZ </a>
+            <a class="text-white "> INFO@NZHKEDEN.KZ </a>
           </span>
         </div>
 
@@ -60,17 +59,24 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg-gray-100">
+      <div class="bg-gray-600">
       <div
         class="container mx-auto py-2 px-5 flex flex-wrap flex-col sm:flex-row"
       >
-        <p class="text-gray-500 text-sm text-center sm:text-left ml-5">
+        <p class="text-white text-sm text-center sm:text-left ml-5">
           © 2023 ТОО "NurZholy Customs Service". Все права защищены
         </p>
       </div>
     </div>
+    </div>
+    
   </footer>
 
 
 </template>
+
+<script>
+export default {
+  name: "Footer",
+};
+</script>

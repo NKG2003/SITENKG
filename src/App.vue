@@ -1,22 +1,21 @@
 <template>
-  <div class=" h-full ">
-    <NavBar />
-    <router-view />
-  </div>
-  <div class="bottom-0 w-full">
-    <HelloWorld />
+  <div class="">
+    <div class="h-screen "><NavBar /> <router-view /></div>
+    <div class="absolute inset-x-0 bottom-0">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Footer from "./components/Footer.vue";
 import NavBar from "./components/NavBar.vue";
 </script>
 
 <script>
 export default {
   components: {
-    HelloWorld,
+    Footer,
     NavBar,
   },
 };
