@@ -7,7 +7,7 @@ html, body {
 
 #go-top {
     position: fixed; 
-    bottom: 30px; 
+    bottom:20px; 
     right: 40px;
     cursor:pointer; 
     display:none;
@@ -15,7 +15,7 @@ html, body {
     height: 50px;
     background: #c0c0c0;
     line-height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: 20;
 
   }

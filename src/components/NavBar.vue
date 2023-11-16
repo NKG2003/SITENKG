@@ -2,7 +2,7 @@
   <div class="relative">
     <div class="h-full flex justify-center">
       <nav
-        class="rounded-b-3xl  bg-white fixed z-30 py-1 w-full h-14 flex flex-wrap items-center mx-auto p-0 shadow-xl"
+        class="rounded-b-3xl bg-white fixed z-30 py-1 w-screen h-14 flex flex-wrap items-center mx-auto p-0 shadow-xl"
       >
         <router-link
           to="/"
@@ -44,11 +44,11 @@
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <router-link
-                to="/"
+              <a
+                v-on:click="linkAndScrollTop('/')"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-main"
                 data-lang="main"
-                >Главная</router-link
+                >Главная</a
               >
             </button>
 
@@ -88,67 +88,67 @@
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
-                    <router-link
-                      to="/history"
+                    <a
+                      v-on:click="linkAndScrollTop('/history')"
                       class="block px-6 py-2 lng-history"
                       data-lang="history"
-                      >История</router-link
+                      >История</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/org_strucutre"
+                    <a
+                      v-on:click="linkAndScrollTop('/org_strucutre')"
                       class="block px-6 py-2 lng-organizational-structure"
                       data-lang="organizational-structure"
-                      >Организационная структура</router-link
+                      >Организационная структура</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/leadership"
+                    <a
+                      v-on:click="linkAndScrollTop('/leadership')"
                       class="block px-6 py-2 lng-leadership"
                       data-lang="leadership"
-                      >Руководство</router-link
+                      >Руководство</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/process"
+                    <a
+                      v-on:click="linkAndScrollTop('/process')"
                       class="block px-6 py-2 lng-types-of-activities"
                       data-lang="types-of-activities"
-                      >Виды деятельности</router-link
+                      >Виды деятельности</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/process"
+                    <a
+                      v-on:click="linkAndScrollTop('/process')"
                       class="block px-6 py-2 lng-development-plans"
                       data-lang="development-plans"
-                      >Планы развития</router-link
+                      >Планы развития</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/process"
+                    <a
+                      v-on:click="linkAndScrollTop('/process')"
                       class="block px-6 py-2 lng-reporting"
                       data-lang="reporting"
-                      >Отчетность</router-link
+                      >Отчетность</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/regulations"
+                    <a
+                      v-on:click="linkAndScrollTop('/regulations')"
                       class="block px-6 py-2 lng-regulatory-documents"
                       data-lang="regulatory-documents"
-                      >Нормативные документы</router-link
+                      >Нормативные документы</a
                     >
                   </li>
                   <li>
-                    <router-link
-                      to="/process"
+                    <a
+                      v-on:click="linkAndScrollTop('/process')"
                       class="block px-6 py-2 lng-ads"
                       data-lang="ads"
-                      >Объявления</router-link
+                      >Объявления</a
                     >
                   </li>
                 </ul>
@@ -160,21 +160,21 @@
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <router-link
-                to="/process"
+              <a
+                v-on:click="linkAndScrollTop('/process')"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-projects"
                 data-lang="projects"
-                >Проекты</router-link
+                >Проекты</a
               >
             </button>
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <router-link
-                to="/process"
+              <a
+                v-on:click="linkAndScrollTop('/process')"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-news"
                 data-lang="news"
-                >Новости</router-link
+                >Новости</a
               >
             </button>
             <button
@@ -190,21 +190,21 @@
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <router-link
-                to="/process"
+              <a
+                v-on:click="linkAndScrollTop('/process')"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-vacancy"
                 data-lang="vacancy"
-                >Вакансия</router-link
+                >Вакансия</a
               >
             </button>
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
-              <router-link
-                to="/contacts"
+              <a
+                v-on:click="linkAndScrollTop('/contacts')"
                 class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-contacts"
                 data-lang="contacts"
-                >Контакты</router-link
+                >Контакты</a
               >
             </button>
             <!-- Language -->
@@ -276,7 +276,7 @@
 
               <li class="ml-3 md:m-0">
                 <a>
-                  <div class="flex justify-start py-2 mr-2">
+                  <div class="flex justify-start py-2 mr-4">
                     <input
                       type="text"
                       class="text-gray-600 border-2 border-teal-950 sm:w-full lg:w-auto md:w-12 h-7 font-normal px-2 py-2.5 rounded-l-lg"
@@ -308,5 +308,11 @@
 <script>
 export default {
   name: "NavBar",
+  methods: {
+    linkAndScrollTop(route) {
+      window.scrollTo(0, 0);
+      this.$router.push(route);
+    },
+  },
 };
 </script>

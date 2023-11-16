@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[url('@/assets/office.jpeg')] md:h-screen md:w-screen bg-cover bg-no-repeat bg-center bg-local"
+    class="bg-[url('@/assets/office.jpeg')] md:h-screen  bg-cover bg-no-repeat bg-center bg-local"
   >
     <section class="z-10 text-white body-font py-4 lg:px-40">
       <div class="container px-5 mx-auto">

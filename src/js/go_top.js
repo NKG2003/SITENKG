@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('body').append('<a href="#" id="go-top" title="Вверх"><img src="/src/assets/up.svg" class=" p-3 mb-9  " ></a>');
+    $('body').append('<a class="" href="#" id="go-top" title="Вверх"><img src="/src/assets/up.svg" class=" p-3 mb-9  " ></a>');
   });
   
   $(function() {

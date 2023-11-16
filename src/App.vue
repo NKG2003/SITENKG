@@ -1,10 +1,8 @@
 <template>
-  <div class="">
-    <div class="h-screen "><NavBar /> <router-view /></div>
-    <div class="absolute inset-x-0 bottom-0">
-      <Footer />
-    </div>
-  </div>
+  <NavBar /> 
+  <router-view />
+
+  <Footer />
 </template>
 
 <script setup>
