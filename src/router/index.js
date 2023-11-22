@@ -6,6 +6,8 @@ import History from "@/views/History.vue";
 import Org_strucutre from "@/views/Org_strucutre.vue";
 import Leadership from "@/views/Leadership.vue";
 import Regulations from "@/views/Regulations.vue";
+import Position from "@/views/Position.vue";
+import Anti_corruption from "@/views/Anti_corruption.vue";
 
 
 const routes = [
@@ -13,6 +15,16 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/anti_corruption",
+    name: "Anti_corruption",
+    component: Anti_corruption,
+  },
+  {
+    path: "/position",
+    name: "Position",
+    component: Position,
   },
   {
     path: "/contacts",

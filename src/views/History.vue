@@ -1,6 +1,6 @@
 <template>
-  <div class="relative md:h-screen ">
-    <div class="flex justify-center lg:px-10 lg:mt-16 mt-14 ">
+  <div class="relative md:h-screen">
+    <div class="flex justify-center lg:px-10 lg:mt-16 mt-14">
       <div
         class="z-10 flex body-font text-teal-950 py-6 items-center flex-col px-5 lg:-mt-0 xl:w-1/2"
       >
@@ -10,7 +10,7 @@
           </h1>
 
           <div
-            class="hidden lg:flex justify-center items-center flex-col  xl:text-2xl z-10 text-justify px-10 indent-8"
+            class="hidden lg:flex justify-center items-center flex-col xl:text-2xl z-10 text-justify px-10 indent-8"
           >
             ТОО «Nur Zholy Customs Service» (далее – Товарищество) создано 7
             октября 2022 года в порядке, установленном законодательством
@@ -47,3 +47,4 @@
     </div>
   </div>
 </template>
+

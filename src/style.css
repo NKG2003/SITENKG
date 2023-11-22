@@ -1,27 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 #go-top {
-    position: fixed; 
-    bottom:20px; 
-    right: 40px;
-    cursor:pointer; 
-    display:none;
-    width: 60px;
-    height: 50px;
-    background: #c0c0c0;
-    line-height: 30px;
-    border-radius: 10px;
-    z-index: 20;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+  display: none;
+  width: 60px;
+  height: 50px;
+  background: #c0c0c0;
+  line-height: 30px;
+  border-radius: 10px;
+  z-index: 20;
+}
 
-  }
-  
-  #go-top:hover {
-    background: #dedede;
-  }
-
-
+#go-top:hover {
+  background: #dedede;
+}

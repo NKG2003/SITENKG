@@ -35,7 +35,7 @@
           </svg>
         </button>
         <div
-          class="hidden w-full pr-2 pl-2 md:block md:w-auto text-teal-950"
+          class="hidden w-full pr-2 lg:pl-2 md:block md:w-auto text-teal-950"
           id="navbar-dropdown"
         >
           <ul
@@ -46,7 +46,7 @@
             >
               <a
                 v-on:click="linkAndScrollTop('/')"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-main"
+                class="sm:ml-0 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-main"
                 data-lang="main"
                 >Главная</a
               >
@@ -57,11 +57,11 @@
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
                 data-lang="company"
-                class="flex items-center uppercase justify-between w-full py-3 p-3 px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
+                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3  lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
               >
                 О компания
                 <svg
-                  class="w-2.5 h-2.5 ml-2"
+                  class="w-2.5 h-2.5 ml-1"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -162,17 +162,75 @@
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-projects"
+                class="sm:ml-1 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-projects"
                 data-lang="projects"
                 >Проекты</a
               >
             </button>
+          
+
+            <li>
+              <button
+                id="dropdownNavbarLin"
+                data-dropdown-toggle="dropdownNavba"
+                data-lang="company"
+                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3  lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
+              >
+              Комплаенс
+                <svg
+                  class="w-2.5 h-2.5 ml-1"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+
+              <!-- Dropdown menu -->
+
+              <div
+                id="dropdownNavba"
+                class="z-10 hidden justify-center font-normal divide-yrounded-lg shadow"
+              >
+                <ul
+                  class="py-6 bg-teal-950 fixed flex top-0 -left-16 flex-col text-white"
+                  aria-labelledby="dropdownLargeButto"
+                >
+                  <li>
+                    <a
+                      v-on:click="linkAndScrollTop('/position')"
+                      class="block px-6 py-2 lng-history"
+                      data-lang="history"
+                      >Положение</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      v-on:click="linkAndScrollTop('/anti_corruption')"
+                      class="block px-6 py-2 lng-history"
+                      data-lang="history"
+                      >Проект антикоррупционных стандартов</a
+                    >
+                  </li>
+                 
+                </ul>
+              </div>
+            </li>
+
             <button
               class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-news"
+                class="sm:ml-1 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-news"
                 data-lang="news"
                 >Новости</a
               >
@@ -182,7 +240,7 @@
             >
               <a
                 href="https://goszakup.gov.kz/"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-purchases"
+                class="sm:ml-1 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-purchases"
                 data-lang="purchases"
                 >Закупки</a
               >
@@ -192,7 +250,7 @@
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-vacancy"
+                class="sm:ml-1 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-vacancy"
                 data-lang="vacancy"
                 >Вакансия</a
               >
@@ -202,7 +260,7 @@
             >
               <a
                 v-on:click="linkAndScrollTop('/contacts')"
-                class="ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-contacts"
+                class="sm:ml-1 lg:ml-3 ml-3 xl:p-3 p-0 pr-96 sm:pr-0 2xl:p-5 py-4 lng-contacts"
                 data-lang="contacts"
                 >Контакты</a
               >
@@ -316,3 +374,5 @@ export default {
   },
 };
 </script>
+
+

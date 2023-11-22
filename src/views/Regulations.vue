@@ -1,9 +1,9 @@
 <template>
   <div
-    class="absolute inset-0 bg-[url('/src/assets/office.jpeg')] bg-opacity-50 bg-cover bg-no-repeat bg-center bg-local"
+    class="absolute inset-0 bg-[url('/src/assets/office.jpeg')] bg-cover  bg-center bg-local h-full "
   ></div>
-  <section class="text-black body-font h-screen">
-    <div class="container px-5 py-40 mx-auto ">
+  <section class="text-black body-font lg:h-screen">
+    <div class="container px-5 py-40 mx-auto">
       <div
         class="flex flex-wrap flex-col sm:flex-row mx-2 -m-16 justify-center"
       >
@@ -18,8 +18,8 @@
             </h1>
             <p class="leading-relaxed mb-3">1-изм в устав_10.02.23г</p>
             <a
-              href="/src/assets/Documents/1-ezm_v_ ustac_10.02.23g.pdf"
-              download=""
+              href="assets/Documents/1-ezm_v_ ustac_10.02.23g.pdf"
+              download="assets/Documents/1-ezm_v_ ustac_10.02.23g.pdf"
               class="text-black inline-flex items-center border-2 border-gray-500 p-2 mt-5 rounded-lg hover:text-orange-500 pt-5 text-lg hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
               >Скачать
               <svg
@@ -50,8 +50,8 @@
             </h1>
             <p class="leading-relaxed mb-3">2-изм в устав_28.02.23г</p>
             <a
-              href="/src/assets/Documents/2-ezm_v_ ustac_28.02.23g.pdf"
-              download=""
+              href="assets/Documents/2-ezm_v_ ustac_28.02.23g.pdf"
+              download="assets/Documents/2-ezm_v_ ustac_28.02.23g.pdf"
               class="text-black inline-flex items-center border-2 border-gray-500 p-2 mt-5 rounded-lg hover:text-orange-500 pt-5 text-lg hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
               >Скачать
               <svg
@@ -82,8 +82,8 @@
             </h1>
             <p class="leading-relaxed mb-3">3-изм в устав_31.08.23г</p>
             <a
-              href="/src/assets/Documents/3-ezm_v_ ustac_31.08.23g.pdf"
-              download=""
+              href="assets/Documents/3-ezm_v_ ustac_31.08.23g.pdf"
+              download="assets/Documents/3-ezm_v_ ustac_31.08.23g.pdf"
               class="text-black inline-flex items-center border-2 border-gray-500 p-2 mt-5 rounded-lg hover:text-orange-500 pt-5 text-lg hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
               >Скачать
               <svg
@@ -114,8 +114,8 @@
             </h1>
             <p class="leading-relaxed mb-3">Устав Nur Zholy</p>
             <a
-              href="/src/assets/Documents/Ustav_Nur Zholy.pdf"
-              download=""
+              href="assets/Documents/Ustav_Nur Zholy.pdf"
+              download="assets/Documents/Ustav_Nur Zholy.pdf"
               class="text-black inline-flex items-center border-2 border-gray-500 p-2 mt-5 rounded-lg hover:text-orange-500 pt-5 text-lg hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
               >Скачать
               <svg
@@ -139,3 +139,4 @@
     </div>
   </section>
 </template>
+

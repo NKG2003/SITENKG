@@ -21,7 +21,10 @@
             >
           </button>
           <button class="text-white md:ml-6 md:mt-0 mt-2 text-center">
-            <a v-on:click="linkAndScrollTop('/Process')"  class="" data-lang="news"
+            <a
+              v-on:click="linkAndScrollTop('/Process')"
+              class=""
+              data-lang="news"
               >Новости</a
             >
           </button>
@@ -82,7 +85,7 @@ export default {
   methods: {
     linkAndScrollTop(route) {
       window.scrollTo(0, 0);
-      this.$router.push(route)
+      this.$router.push(route);
     },
   },
 };

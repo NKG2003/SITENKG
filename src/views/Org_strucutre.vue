@@ -436,4 +436,3 @@
   </div>
 </template>
 
-<script></script>
