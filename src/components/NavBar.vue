@@ -42,7 +42,7 @@
             class="flex uppercase flex-col xl:text-base md:text-xs font-extrabold p-0 mt-5 shadow-xl sm:shadow-none border-2 bg-white text-teal-950 rounded-lg md:flex-row md:space-x-0.5 lg:md:space-x-1 md:mt-0 md:border-0 border-teal-950"
           >
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 v-on:click="linkAndScrollTop('/')"
@@ -52,16 +52,16 @@
               >
             </button>
 
-            <li>
+            <li class="border-b-2 border-b-gray-300 sm:border-0">
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
                 data-lang="company"
-                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3  lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
+                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3 lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
               >
                 О компания
                 <svg
-                  class="w-2.5 h-2.5 ml-1"
+                  class="w-2.5 h-2.5 mr-5 sm:mr-0 ml-1"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -158,7 +158,7 @@
             <!-- блоки -->
 
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
@@ -167,18 +167,17 @@
                 >Проекты</a
               >
             </button>
-          
 
-            <li>
+            <li class="border-b-2 border-b-gray-300 sm:border-0">
               <button
                 id="dropdownNavbarLin"
                 data-dropdown-toggle="dropdownNavba"
                 data-lang="company"
-                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3  lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
+                class="flex items-center uppercase justify-between w-full py-3 sm:ml-1 lg:ml-3 ml-3 lg:p-3 lg:px-3 lng-company rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600"
               >
-              Комплаенс
+                Комплаенс
                 <svg
-                  class="w-2.5 h-2.5 ml-1"
+                  class="w-2.5 h-2.5 mr-5 sm:mr-0 ml-1"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -217,16 +216,39 @@
                       v-on:click="linkAndScrollTop('/anti_corruption')"
                       class="block px-6 py-2 lng-history"
                       data-lang="history"
-                      >Проект антикоррупционных стандартов</a
+                      >Антикоррупционные стандарты</a
                     >
                   </li>
-                 
+                  <li>
+                    <a
+                      v-on:click="linkAndScrollTop('/anti_corruption_policy')"
+                      class="block px-6 py-2 lng-history"
+                      data-lang="history"
+                      >Политика противодействия коррупции</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      v-on:click="linkAndScrollTop('/anti_corruption_instructions')"
+                      class="block px-6 py-2 lng-history"
+                      data-lang="history"
+                      >Инструкция по противодействию коррупции</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      v-on:click="linkAndScrollTop('/policy_on_identifying')"
+                      class="block px-6 py-2 lng-history"
+                      data-lang="history"
+                      >Политику по выявлению и урегулированию конфликта интересов должностных лиц и работников</a
+                    >
+                  </li>
                 </ul>
               </div>
             </li>
 
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
@@ -236,7 +258,7 @@
               >
             </button>
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 href="https://goszakup.gov.kz/"
@@ -246,7 +268,7 @@
               >
             </button>
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 v-on:click="linkAndScrollTop('/process')"
@@ -256,7 +278,7 @@
               >
             </button>
             <button
-              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600"
+              class="block uppercase text-start py-3 text-teal-950 hover:text-blue-600 border-b-2 border-b-gray-300 sm:border-0"
             >
               <a
                 v-on:click="linkAndScrollTop('/contacts')"
@@ -272,7 +294,7 @@
                 id="dropdownDefaultButtoLanguage"
                 data-dropdown-toggle="dropdow"
                 data-lang="language"
-                class="flex items-center lng-search justify-between lg:pl-6 w-full py-3 pb-4 pl-3 p-3 rounded md:hover:bg-transparent md:border-0 md:w-auto hover:text-blue-600 uppercase"
+                class="flex items-center lng-search border-b-2 border-b-gray-300 sm:border-0 justify-start lg:justify-end w-full sm:w-1/2 py-3 pb-4 pl-3 sm:pl-0 pr-3 rounded md:hover:bg-transparent md:border-0 hover:text-blue-600 uppercase"
                 type="button"
               >
                 Язык<svg
@@ -334,10 +356,10 @@
 
               <li class="ml-3 md:m-0">
                 <a>
-                  <div class="flex justify-start py-2 mr-4">
+                  <div class="flex justify-start lg:justify-end py-2 mr-4">
                     <input
                       type="text"
-                      class="text-gray-600 border-2 border-teal-950 sm:w-full lg:w-auto md:w-12 h-7 font-normal px-2 py-2.5 rounded-l-lg"
+                      class="text-gray-600 border-2 border-teal-950 sm:w-full lg:w-2/3 md:w-12 h-7 font-normal px-2 py-2.5 rounded-l-lg"
                       name="SearchForm[keyword]"
                       placeholder="Поиск"
                       aria-required="true"
@@ -374,5 +396,3 @@ export default {
   },
 };
 </script>
-
-

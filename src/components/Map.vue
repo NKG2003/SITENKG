@@ -1,7 +1,7 @@
 <template>
   <div class="mt-10">
     <div
-      class="hidden xl:flex sticky top-1/4 mr-6 p-5 bg-white border text-teal-950  flex-col 2xl:left-2/3 left-full 2xl:w-64 w-48 font-extrabold"
+      class="hidden xl:flex sticky top-1/4 mr-6 p-5 bg-white border text-teal-950 flex-col 2xl:left-2/3 left-full 2xl:w-64 w-48 font-extrabold"
     >
       <a href="#glav_office">Головной офис: СВХ "Нур Жолы"</a>
       <a href="#bek_office">Бэк офис: Астана</a>

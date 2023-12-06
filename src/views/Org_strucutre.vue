@@ -1,28 +1,23 @@
 <template>
-  <div
-    class="absolute inset-0 bg-[url('@/assets/office.jpeg')] bg-opacity-50 bg-cover bg-no-repeat bg-center bg-local"
-  ></div>
   <div class="h-screen">
-    <div
-      class="z-10 flex body-font text-white px-3 lg:px-24 pt-10 items-center flex-col"
-    >
+    <div class="z-10 flex body-font text-black pt-10 items-center flex-col">
       <h1
-        class="flex justify-center mb-2 font-bold text-lg lg:text-2xl z-10 px-3 lg:px-32 py-6 lg:py-10 text-center"
+        class="flex justify-center mb-2 font-bold text-base lg:text-xl xl:text-xl p-3 mx-3 lg:mx-32 py-6 lg:py-2 xl:py-8 text-center mt-6 xl:mt-10 bg-white shadow-xl rounded-xl"
       >
         Организационная структура товарищества с ограниченной ответственностью
         «Nur Zholy Customs Service»
       </h1>
 
       <div
-        class="flex-col justify-center items-center hidden absolute mt-3 md:flex text-sm text-white z-10"
+        class="flex-col justify-center items-center hidden absolute mt-3 md:flex text-sm text-black z-10"
       >
-        <div class="container mx-auto text-center pt-24">
+        <div class="container mx-auto text-center pt-32 lg:pt-24 xl:pt-44">
           <div class="items-center justify-center flex">
             <div class="text-center">
               <div class="flex flex-col justify-center items-center">
                 <div class="w-16"></div>
                 <div
-                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                 >
                   <p>Единственный участник</p>
                 </div>
@@ -43,7 +38,7 @@
                       <div class="flex flex-col justify-center items-center">
                         <div class="w-16"></div>
                         <div
-                          class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                          class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                         >
                           <p>Директор</p>
                         </div>
@@ -67,7 +62,7 @@
                               >
                                 <div class="w-16"></div>
                                 <div
-                                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                 >
                                   <p>Юридическая служба</p>
                                 </div>
@@ -90,7 +85,7 @@
                               >
                                 <div class="w-16"></div>
                                 <div
-                                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                 >
                                   <p>Финансовая служба</p>
                                 </div>
@@ -113,7 +108,7 @@
                               >
                                 <div class="w-16"></div>
                                 <div
-                                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                 >
                                   <p>Заместитель директора</p>
                                 </div>
@@ -143,7 +138,7 @@
                                       >
                                         <div class="w-16"></div>
                                         <div
-                                          class="text-white border-2 border-gray-200 bg-slate-500 p-1"
+                                          class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                           style="width: 170px"
                                         >
                                           <p>
@@ -171,7 +166,7 @@
                                       >
                                         <div class="w-16"></div>
                                         <div
-                                          class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                          class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                         >
                                           <p>Служба контроля СВХ</p>
                                         </div>
@@ -194,7 +189,7 @@
                                       >
                                         <div class="w-16"></div>
                                         <div
-                                          class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                          class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                         >
                                           <p>
                                             Служба внутреннего администрирования
@@ -219,7 +214,7 @@
                                       >
                                         <div class="w-16"></div>
                                         <div
-                                          class="text-white border-2 border-gray-200 bg-slate-500 p-6"
+                                          class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 rounded-xl font-bold p-6"
                                         >
                                           <p>Служба эксплуатации</p>
                                         </div>
@@ -246,7 +241,7 @@
                               >
                                 <div class="w-16"></div>
                                 <div
-                                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                 >
                                   <p>Служба безопасности</p>
                                 </div>
@@ -269,7 +264,7 @@
                               >
                                 <div class="w-14"></div>
                                 <div
-                                  class="text-white border-2 border-gray-200 bg-slate-500 p-3"
+                                  class="text-black border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                                 >
                                   <p>Служба информационных технологий</p>
                                 </div>
@@ -282,12 +277,12 @@
                   </div>
                 </li>
                 <p
-                  class="absolute left-52 mt-5 py-5 pr-2 h-16 border-2 border-gray-200 bg-slate-500 p-3"
+                  class="absolute left-52 mt-5 py-5 pr-2 h-16 border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                 >
                   Советник
                 </p>
                 <p
-                  class="absolute right-40 py-5 pr-2 h-16 border-2 border-gray-200 bg-slate-500 p-3"
+                  class="absolute right-40 py-5 pr-2 h-16 border-2 border-gray-200 bg-gradient-to-b from-white to-blue-200 p-4 rounded-xl font-bold"
                 >
                   Комплаенс
                 </p>
@@ -297,7 +292,7 @@
         </div>
       </div>
 
-      <div class="inline-block px-3 py-4 md:hidden z-10 relative -mt-9">
+      <div class="inline-block px-3 py-4 md:hidden z-10 relative">
         <div
           id="accordion-nested-parent"
           data-accordion="collaps"
@@ -435,4 +430,3 @@
     </div>
   </div>
 </template>
-

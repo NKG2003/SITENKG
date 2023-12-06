@@ -23,13 +23,9 @@
                   Хасенов Ерлан Оразович
                 </h2>
                 <p class="leading-relaxed text-sm lg:text-base">
-                  Экс - Руководитель Департамента государственных доходов по
-                  Акмолинской области
+                  Директор ТОО "NurZholy Customs Service"
                 </p>
-                <a
-                  class="mt-3 text-white inline-flex items-center"
-                  href="https://online.zakon.kz/Document/?doc_id=31585224"
-                >
+                <a class="mt-3 text-white inline-flex items-center" href="#">
                   Узнать больше
                   <svg
                     fill="none"
@@ -50,7 +46,7 @@
       </div>
     </section>
 
-    <section class="z-10 text-white body-font lg:px-40">
+    <!-- <section class="z-10 text-white body-font lg:px-40">
       <div class="container px-5 mx-auto">
         <div class="flex flex-wrap -m-4 justify-center">
           <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -166,6 +162,6 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>

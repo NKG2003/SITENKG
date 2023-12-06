@@ -1,11 +1,11 @@
 <template>
   <div
-    class="z-10 text-base body-font text-teal-950 w-auto flex flex-col lg:flex-row justify-center lg:h-screen"
+    class="z-10 text-base body-font text-teal-950 w-auto flex justify-center h-screen items-start"
   >
     <div class="lg:mt-20">
       <Home_1 />
     </div>
-    <div class="flex flex-col lg:w-1/4 mx-7 -mt-10 lg:mt-0">
+    <!-- <div class="flex flex-col lg:w-1/4 mx-7 -mt-10 lg:mt-0">
       <div class="bg-white mb-6 pb-4 mt-20 shadow-2xl rounded-lg h-64">
         <Home_2 />
       </div>
@@ -13,7 +13,7 @@
       <div class="bg-white pb-4 mb-4 shadow-2xl rounded-lg h-64">
         <Home_2 />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

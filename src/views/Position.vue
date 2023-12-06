@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div class="flex lg:flex-row flex-col ">
+      <div class="flex lg:flex-row flex-col">
         <div class="p-2">
           <div
             class="h-full bg-gray-300/80 rounded-lg px-10 pt-2 pb-5 overflow-hidden text-center relative"
@@ -47,9 +47,13 @@
             <a
               href="assets/Documents/Положение_каз_пр.docx"
               download="assets/Documents/Положение_каз_пр.docx"
-              class="text-black font-bold  inline-flex items-center p-2 flex-col rounded-lg hover:text-orange-500 pt-2 text-base hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
+              class="text-black font-bold inline-flex items-center p-2 flex-col rounded-lg hover:text-orange-500 pt-2 text-base hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
             >
-              <img src="@/assets/word.png" class="lg:h-20 lg:w-20 h-10 w-10 mb-4 " alt="word" />Положение_каз_пр
+              <img
+                src="@/assets/word.png"
+                class="lg:h-20 lg:w-20 h-10 w-10 mb-4"
+                alt="word"
+              />Положение_каз_пр
             </a>
           </div>
         </div>
@@ -60,9 +64,13 @@
             <a
               href="assets/Documents/Положение_рус_пр.docx"
               download="assets/Documents/Положение_рус_пр.docx"
-              class="text-black font-bold  inline-flex items-center p-2 flex-col rounded-lg hover:text-orange-500 pt-2 text-base hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
+              class="text-black font-bold inline-flex items-center p-2 flex-col rounded-lg hover:text-orange-500 pt-2 text-base hover:text-xl cursor-pointer transition-transform transform hover:scale-110"
             >
-              <img src="@/assets/word.png" class="lg:h-20 lg:w-20 h-10 w-10 mb-4" alt="word" />Положение_рус_пр
+              <img
+                src="@/assets/word.png"
+                class="lg:h-20 lg:w-20 h-10 w-10 mb-4"
+                alt="word"
+              />Положение_рус_пр
             </a>
           </div>
         </div>

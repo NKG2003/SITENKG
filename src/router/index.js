@@ -8,9 +8,21 @@ import Leadership from "@/views/Leadership.vue";
 import Regulations from "@/views/Regulations.vue";
 import Position from "@/views/Position.vue";
 import Anti_corruption from "@/views/Anti_corruption.vue";
-
+import Anti_corruption_policy from "@/views/Anti_corruption_policy.vue";
+import Anti_corruption_instructions from "@/views/Anti_corruption_instructions.vue";
+import Policy_on_identifying from "@/views/Policy_on_identifying.vue";
 
 const routes = [
+  {
+    path: "/policy_on_identifying",
+    name: "Policy_on_identifying",
+    component: Policy_on_identifying,
+  },
+  {
+    path: "/anti_corruption_instructions",
+    name: "Anti_corruption_instructions",
+    component: Anti_corruption_instructions,
+  },
   {
     path: "/",
     name: "Home",
@@ -55,6 +67,11 @@ const routes = [
     path: "/regulations",
     name: "Regulations",
     component: Regulations,
+  },
+  {
+    path: "/anti_corruption_policy",
+    name: "Anti_corruption_policy",
+    component: Anti_corruption_policy,
   },
 ];
 
